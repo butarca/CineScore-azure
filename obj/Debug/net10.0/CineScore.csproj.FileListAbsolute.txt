@@ -1391,4 +1391,4 @@ D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\refint\CineSco
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\CineScore.pdb
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\CineScore.genruntimeconfig.cache
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\ref\CineScore.dll
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-z6i8vwa06p-z6i8vwa06p.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-j05bh568qt-j05bh568qt.gz
