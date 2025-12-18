@@ -850,7 +850,6 @@ D:\GitHub\CineScore\obj\Debug\net10.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-lugek5hnai-lugek5hnai.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\7utdnoaec4-{0}-61n19gt1b8-61n19gt1b8.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\s63sxqdtos-{0}-fr7q2aak1r-fr7q2aak1r.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\ced3nx10ij-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -1392,3 +1391,4 @@ D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\refint\CineSco
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\CineScore.pdb
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\CineScore.genruntimeconfig.cache
 D:\NewDownloads\CineScoreAPIme\CineScore-TB-dev\obj\Debug\net10.0\ref\CineScore.dll
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-j05bh568qt-j05bh568qt.gz
