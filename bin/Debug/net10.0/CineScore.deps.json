@@ -17,8 +17,9 @@
           "Microsoft.CodeAnalysis.Features": "4.14.0",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "10.0.0",
           "Swashbuckle.AspNetCore": "10.0.0"
         },
         "runtime": {
@@ -645,7 +646,7 @@
           }
         }
       },
-      "Microsoft.Build/17.11.4": {
+      "Microsoft.Build/17.11.48": {
         "dependencies": {
           "Microsoft.Build.Framework": "17.14.28",
           "Microsoft.NET.StringTools": "17.14.28",
@@ -655,7 +656,7 @@
         "runtime": {
           "lib/net8.0/Microsoft.Build.dll": {
             "assemblyVersion": "15.1.0.0",
-            "fileVersion": "17.11.4.40609"
+            "fileVersion": "17.11.48.46605"
           }
         }
       },
@@ -664,14 +665,6 @@
           "lib/net9.0/Microsoft.Build.Framework.dll": {
             "assemblyVersion": "15.1.0.0",
             "fileVersion": "17.14.28.46601"
-          }
-        }
-      },
-      "Microsoft.Build.Locator/1.9.1": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Build.Locator.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.9.1.3007"
           }
         }
       },
@@ -684,7 +677,7 @@
           "System.Configuration.ConfigurationManager": "9.0.4",
           "System.Formats.Nrbf": "9.0.0",
           "System.Resources.Extensions": "9.0.0",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Build.Tasks.Core.dll": {
@@ -698,7 +691,7 @@
           "Microsoft.Build.Framework": "17.14.28",
           "Microsoft.NET.StringTools": "17.14.28",
           "System.Configuration.ConfigurationManager": "9.0.4",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Build.Utilities.Core.dll": {
@@ -831,7 +824,7 @@
           "Microsoft.DiaSymReader": "2.0.0",
           "System.Composition": "9.0.0",
           "System.Configuration.ConfigurationManager": "9.0.4",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.CSharp.Features.dll": {
@@ -959,7 +952,7 @@
           "Microsoft.DiaSymReader": "2.0.0",
           "System.Composition": "9.0.0",
           "System.Configuration.ConfigurationManager": "9.0.4",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net9.0/Microsoft.CodeAnalysis.Features.dll": {
@@ -1131,7 +1124,7 @@
       "Microsoft.CodeAnalysis.Workspaces.MSBuild/4.14.0": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.Build": "17.11.4",
+          "Microsoft.Build": "17.11.48",
           "Microsoft.Build.Framework": "17.14.28",
           "Microsoft.Build.Tasks.Core": "17.14.28",
           "Microsoft.Build.Utilities.Core": "17.14.28",
@@ -1141,7 +1134,7 @@
           "System.Composition": "9.0.0",
           "System.Configuration.ConfigurationManager": "9.0.4",
           "System.Resources.Extensions": "9.0.0",
-          "System.Security.Cryptography.ProtectedData": "9.0.4",
+          "System.Security.Cryptography.ProtectedData": "9.0.6",
           "System.Security.Permissions": "9.0.0",
           "System.Windows.Extensions": "9.0.0"
         },
@@ -1297,7 +1290,7 @@
           }
         }
       },
-      "Microsoft.DotNet.Scaffolding.Shared/10.0.0-rc.1.25458.5": {
+      "Microsoft.DotNet.Scaffolding.Shared/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
@@ -1311,12 +1304,12 @@
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.DotNet.Scaffolding.Shared.dll": {
+          "lib/net9.0/Microsoft.DotNet.Scaffolding.Shared.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
@@ -1516,7 +1509,7 @@
       "Microsoft.Identity.Client.Extensions.Msal/4.73.1": {
         "dependencies": {
           "Microsoft.Identity.Client": "4.73.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll": {
@@ -1613,12 +1606,12 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
-          "Microsoft.Build.Locator": "1.9.1",
+          "Microsoft.Build": "17.11.48",
+          "Microsoft.Build.Tasks.Core": "17.14.28",
           "Microsoft.Build.Utilities.Core": "17.14.28",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
@@ -1630,26 +1623,28 @@
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.14.0",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Core/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
+          "Microsoft.Build": "17.11.48",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.14.0",
@@ -1657,27 +1652,28 @@
           "Microsoft.CodeAnalysis.Features": "4.14.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
-          "Microsoft.Build.Locator": "1.9.1",
+          "Microsoft.Build": "17.11.48",
+          "Microsoft.Build.Tasks.Core": "17.14.28",
           "Microsoft.Build.Utilities.Core": "17.14.28",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
@@ -1687,30 +1683,32 @@
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.14.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0-rc.1.25458.5",
+          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/dotnet-aspnet-codegenerator-design.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
-          "Microsoft.Build.Locator": "1.9.1",
+          "Microsoft.Build": "17.11.48",
+          "Microsoft.Build.Tasks.Core": "17.14.28",
           "Microsoft.Build.Utilities.Core": "17.14.28",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
@@ -1720,29 +1718,31 @@
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.14.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0-rc.1.25458.5",
+          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
+          "Microsoft.Build": "17.11.48",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.14.0",
@@ -1751,51 +1751,51 @@
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
-          "Microsoft.Build": "17.11.4",
+          "Microsoft.Build": "17.11.48",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.14.0",
           "Microsoft.CodeAnalysis.Common": "4.14.0",
           "Microsoft.CodeAnalysis.Features": "4.14.0",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0-rc.1.25458.5",
+          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
-      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/10.0.0-rc.1.25458.5": {
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/10.0.0": {
         "dependencies": {
           "Humanizer": "2.14.1",
           "Microsoft.AspNetCore.Razor.Language": "6.0.24",
-          "Microsoft.Build": "17.11.4",
-          "Microsoft.Build.Locator": "1.9.1",
+          "Microsoft.Build": "17.11.48",
+          "Microsoft.Build.Tasks.Core": "17.14.28",
           "Microsoft.Build.Utilities.Core": "17.14.28",
           "Microsoft.CodeAnalysis.CSharp": "4.14.0",
           "Microsoft.CodeAnalysis.CSharp.Features": "4.14.0",
@@ -1805,21 +1805,23 @@
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.CodeAnalysis.Workspaces.Common": "4.14.0",
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.14.0",
-          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0-rc.1.25458.5",
+          "Microsoft.DotNet.Scaffolding.Shared": "10.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Design": "10.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0",
           "Microsoft.Extensions.DependencyModel": "10.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration": "10.0.0-rc.1.25458.5",
+          "Microsoft.VisualStudio.Web.CodeGeneration": "10.0.0",
           "Mono.TextTemplating": "3.0.0",
           "Newtonsoft.Json": "13.0.3",
           "NuGet.Packaging": "6.12.1",
           "NuGet.ProjectModel": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net10.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.45805"
+            "fileVersion": "10.0.25.60806"
           }
         }
       },
@@ -1856,7 +1858,7 @@
       "NuGet.Configuration/6.12.1": {
         "dependencies": {
           "NuGet.Common": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Configuration.dll": {
@@ -2059,7 +2061,7 @@
       },
       "System.Configuration.ConfigurationManager/9.0.4": {
         "dependencies": {
-          "System.Security.Cryptography.ProtectedData": "9.0.4"
+          "System.Security.Cryptography.ProtectedData": "9.0.6"
         },
         "runtime": {
           "lib/net9.0/System.Configuration.ConfigurationManager.dll": {
@@ -2115,11 +2117,11 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/9.0.4": {
+      "System.Security.Cryptography.ProtectedData/9.0.6": {
         "runtime": {
           "lib/net9.0/System.Security.Cryptography.ProtectedData.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.425.16305"
+            "fileVersion": "9.0.625.26613"
           }
         }
       },
@@ -2564,12 +2566,12 @@
       "path": "microsoft.bcl.cryptography/9.0.4",
       "hashPath": "microsoft.bcl.cryptography.9.0.4.nupkg.sha512"
     },
-    "Microsoft.Build/17.11.4": {
+    "Microsoft.Build/17.11.48": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UMC7DfeFEHY2GGHHaghybUuUlLaByFHEFudR2PehMgDBuRuLAUePp1iaa4eFtVzepRzMtIbeSCVJCzzX3NV2Gg==",
-      "path": "microsoft.build/17.11.4",
-      "hashPath": "microsoft.build.17.11.4.nupkg.sha512"
+      "sha512": "sha512-g8Kn575mNAKcuFotV3C7xvF+IbxuHennl67LH2shL2au1U6UqwReTDygCHyU04+koc2Yn7fHIbVQaC08HqEWow==",
+      "path": "microsoft.build/17.11.48",
+      "hashPath": "microsoft.build.17.11.48.nupkg.sha512"
     },
     "Microsoft.Build.Framework/17.14.28": {
       "type": "package",
@@ -2577,13 +2579,6 @@
       "sha512": "sha512-wRcyTzGV0LRAtFdrddtioh59Ky4/zbvyraP0cQkDzRSRkhgAQb0K88D/JNC6VHLIXanRi3mtV1jU0uQkBwmiVg==",
       "path": "microsoft.build.framework/17.14.28",
       "hashPath": "microsoft.build.framework.17.14.28.nupkg.sha512"
-    },
-    "Microsoft.Build.Locator/1.9.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UTO1acAAxYkpI8lU9ff5D9kn4p85bFwph28Y3QPVM9qy5HKQy3kpB6gWcuVGtlSPtvfzfC67CMDHO/JDys2gNQ==",
-      "path": "microsoft.build.locator/1.9.1",
-      "hashPath": "microsoft.build.locator.1.9.1.nupkg.sha512"
     },
     "Microsoft.Build.Tasks.Core/17.14.28": {
       "type": "package",
@@ -2697,12 +2692,12 @@
       "path": "microsoft.diasymreader/2.0.0",
       "hashPath": "microsoft.diasymreader.2.0.0.nupkg.sha512"
     },
-    "Microsoft.DotNet.Scaffolding.Shared/10.0.0-rc.1.25458.5": {
+    "Microsoft.DotNet.Scaffolding.Shared/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZuBFfn9mk+E8N3k9/dzn53b4D9U+ACRBiyeYlRolklbgoKrAfamkbQkp8ZS0wOoURITraRGVEWjXJVew9Gcd1g==",
-      "path": "microsoft.dotnet.scaffolding.shared/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.dotnet.scaffolding.shared.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-bvbhe5eZu8Ov2vxwNc8+XimXf0M2z79jrfCmtvTS77HRPnGC7dcGkHqdaJIHv1bmMHX+VJH1axlYmVwkF12JvA==",
+      "path": "microsoft.dotnet.scaffolding.shared/10.0.0",
+      "hashPath": "microsoft.dotnet.scaffolding.shared.10.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/10.0.0": {
       "type": "package",
@@ -2886,54 +2881,54 @@
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3B9nIY8NZmKu06yWzcaOZmEdA17PhBgoy6dZOH2gP8CYTowNghLdDEBTLXQJpU15IxNeuNqqx6ALGlPwMvaWlA==",
-      "path": "microsoft.visualstudio.web.codegeneration/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-g6lTQP0hlzeyts5REYJ8sYhU4m9iEk3rK1i9Kk4DHanio2EuUtRxJQDUljTOJdESGBE/iofECWozG7ucBSLjSQ==",
+      "path": "microsoft.visualstudio.web.codegeneration/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Core/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T45shdQUm0ogtQT4oIqsFbElzZn0Zt6hEfI/KF82QVfUtRE7eaMDUqQyBFrcFlBoDSHCU/RftVr7o3OAXGgL2Q==",
-      "path": "microsoft.visualstudio.web.codegeneration.core/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.core.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-UeS+tMVowP7pPQC6kNUGm7bUoj9ojqyU0XIlsA1C0f24xN6iNs7h5btWAkCeQb9sl/RRmGWibKixL/r66ZSz2w==",
+      "path": "microsoft.visualstudio.web.codegeneration.core/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.core.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-73lInFfZE6e/SWGKx4MXHK4GRrXd6Fa99s0oz2KgEJPeC15pTOu7kZ5MEVDRDNxz1osszRs4wTZh0odLwgoenw==",
-      "path": "microsoft.visualstudio.web.codegeneration.design/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.design.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-o/mBDSymoew2WfG1oOUtcy2k57YknJAudH4JRey0qcAj4fTm4+SkUBDhruWppGuwf0yeZuwzfkpDD2L6qbbjjw==",
+      "path": "microsoft.visualstudio.web.codegeneration.design/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.design.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gM/UhDONR5kgdwyHjHe0cynxx/7naqzBEuGnkBz6AxbDBMAKGaQ5vSise53xjPe2jEfOvtjgy9VNdfkCqR/UcA==",
-      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-taGJ3U1UnP5mjpB1h5+ktoXH2KJXEj/j8M+L+e5+P1dqeIt37n75ZO+HlE7YzpGwneETJwMfVtQBWkkOmtnXZA==",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.entityframeworkcore.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TfUJfs2RCZr9kwZUkxGXt4Fuuj/kRRtQ67a9XPj3VlkcOYAaueGbRXOrpGHeon+QPChJ3ELRIuASd/Jm5/Nofg==",
-      "path": "microsoft.visualstudio.web.codegeneration.templating/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-nxzPPd0kJOVixNdHrFfKzMjdy3emYdTWpFC/ZNXfZZHwiQ0o67fam1jGznBXOxshpB4X3GEWgLFogbH/Mi871A==",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.templating.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xgvAppWlZ2jeMGThi+wtlVETexSgOJCX19gFw7l0z0oZcpt029xQNEptNs654TVFGI2J4TvgX5GOh0tBWtVFxg==",
-      "path": "microsoft.visualstudio.web.codegeneration.utils/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-M8aJ3bDRhRa5PvDR9CpaxB+3dY5+V157HVk/PP7dO+kQSD1eUbWq0Wh2uarpnQRSAm7hNacRpr4lIK5IdYMiVQ==",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegeneration.utils.10.0.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/10.0.0-rc.1.25458.5": {
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/10.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-c+WsoH5U2JGmB70E3pAjNLQRlGTuckorFsvuqoGizUnpIaOTd66Adz4LS7qbFPJ/OokElyoRq4oR1w3+npLXEQ==",
-      "path": "microsoft.visualstudio.web.codegenerators.mvc/10.0.0-rc.1.25458.5",
-      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.10.0.0-rc.1.25458.5.nupkg.sha512"
+      "sha512": "sha512-4Kf+vJEM8Bj9s+4UPvFFwuXCVWcuUedVIofRqWCZMaFsCBbUmrKMMkH0AAO5fvkOfxB0F3swjpH8fxzgziybdw==",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/10.0.0",
+      "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.10.0.0.nupkg.sha512"
     },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",
@@ -3138,12 +3133,12 @@
       "path": "system.resources.extensions/9.0.0",
       "hashPath": "system.resources.extensions.9.0.0.nupkg.sha512"
     },
-    "System.Security.Cryptography.ProtectedData/9.0.4": {
+    "System.Security.Cryptography.ProtectedData/9.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o94k2RKuAce3GeDMlUvIXlhVa1kWpJw95E6C9LwW0KlG0nj5+SgCiIxJ2Eroqb9sLtG1mEMbFttZIBZ13EJPvQ==",
-      "path": "system.security.cryptography.protecteddata/9.0.4",
-      "hashPath": "system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+      "sha512": "sha512-yErfw/3pZkJE/VKza/Cm5idTpIKOy/vsmVi59Ta5SruPVtubzxb8CtnE8tyUpzs5pr0Y28GUFfSVzAhCLN3F/Q==",
+      "path": "system.security.cryptography.protecteddata/9.0.6",
+      "hashPath": "system.security.cryptography.protecteddata.9.0.6.nupkg.sha512"
     },
     "System.Security.Permissions/9.0.0": {
       "type": "package",
