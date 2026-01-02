@@ -394,7 +394,10 @@ D:\GitHub\CineScore\obj\Debug\net10.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-4mqbfjibol-4mqbfjibol.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\7utdnoaec4-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\8keetic6wx-{0}-uc9tatui34-uc9tatui34.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\s63sxqdtos-{0}-e1655nuxpf-e1655nuxpf.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\ced3nx10ij-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\6ecea5qo8v-{0}-c2jlpeoesf-c2jlpeoesf.gz
 D:\GitHub\CineScore\obj\Debug\net10.0\compressed\3wk0h57dyx-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -467,5 +470,3 @@ D:\GitHub\CineScore\obj\Debug\net10.0\refint\CineScore.dll
 D:\GitHub\CineScore\obj\Debug\net10.0\CineScore.pdb
 D:\GitHub\CineScore\obj\Debug\net10.0\CineScore.genruntimeconfig.cache
 D:\GitHub\CineScore\obj\Debug\net10.0\ref\CineScore.dll
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-mb0cgopiqr-mb0cgopiqr.gz
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\s63sxqdtos-{0}-e1655nuxpf-e1655nuxpf.gz
