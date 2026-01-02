@@ -467,5 +467,5 @@ D:\GitHub\CineScore\obj\Debug\net10.0\refint\CineScore.dll
 D:\GitHub\CineScore\obj\Debug\net10.0\CineScore.pdb
 D:\GitHub\CineScore\obj\Debug\net10.0\CineScore.genruntimeconfig.cache
 D:\GitHub\CineScore\obj\Debug\net10.0\ref\CineScore.dll
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\s63sxqdtos-{0}-27afikkz9a-27afikkz9a.gz
-D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-vux7zdxy4r-vux7zdxy4r.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\fdirhyzekn-{0}-mb0cgopiqr-mb0cgopiqr.gz
+D:\GitHub\CineScore\obj\Debug\net10.0\compressed\s63sxqdtos-{0}-e1655nuxpf-e1655nuxpf.gz
